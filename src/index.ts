@@ -109,7 +109,7 @@ const appDiv: HTMLElement = document.getElementById('app')!;
 
 appDiv.innerHTML = `
   <div style="display: flex; flex-direction: column; height: 100%;">
-    <h1>Mapworks Auth Example v1</h1>
+    <h1>Mapworks Auth Example - User Sign In before loading map</h1>
     <p>
       User: <span id="user"></span>
       <br/>Access Token: <span id="access-token"></span>

@@ -7,7 +7,9 @@ The specfic use case includes accessing auth via Mapworks, and allowing sign-in 
 
 ## Running in CodeSandbox
 
-This example may be run in CodeSandbox.
+This example may be run in CodeSandbox:
+
+- https://githubbox.com/mapworksio/mapworks-auth-before-loading-map-example
 
 
 ## Running locally
