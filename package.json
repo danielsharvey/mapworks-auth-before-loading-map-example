@@ -4,7 +4,7 @@
   "description": "Mapworks Auth Example - User Sign In before loading map",
   "main": "index.html",
   "scripts": {
-    "start": "parcel index.html --open",
+    "start": "parcel index.html",
     "build": "parcel build index.html"
   },
   "dependencies": {
