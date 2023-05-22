@@ -1,0 +1,7 @@
+{
+  "title": "Mapworks Auth Example - User Sign In before loading map",
+  "description": "This example illustrates utilising Mapworks Auth with a web application. It allows sign-in prior to the initialisation of the map.",
+  "iconUrl": "https://mapworks.io/wp-content/uploads/2023/05/mapworks-logo-64x64-1.png",
+  "tags": ["mapworks", "typescript"],
+  "published": true
+}
