@@ -157,7 +157,7 @@ mapService.accessToken$
 const signinButton = document.getElementById('signin-button');
 signinButton?.addEventListener('click', async () => {
   const user = await mapService.getUser();
-  if(!user) {
+  if(!user || user.profile?.email === studioConfig.mapworksLoginProvider.anonymousUser) {
     console.log('Signing in...');
     mapService.signinPopup();
   } else {
