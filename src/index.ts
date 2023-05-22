@@ -1,5 +1,5 @@
 import { tap } from 'rxjs';
-import { MapworksMapService, MapworksStudioConfigOptions } from './mapworks';
+import { MapworksAccess, MapworksMapService, MapworksStudioConfigOptions } from './mapworks';
 import './styles.css';
 
 /*
@@ -41,7 +41,7 @@ const scope = [
 const studioConfig: MapworksStudioConfigOptions = {
   mapworksPath: mapworksOrgUrl,
   mapRef,
-  // access: MapworksAccess.Anonymous,
+  access: MapworksAccess.Anonymous,
 
   navigationControl: false,
   timeControl: false,
