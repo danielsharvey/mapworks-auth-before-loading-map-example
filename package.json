@@ -4,7 +4,7 @@
   "description": "Mapworks Auth Example - User Sign In before loading map",
   "main": "index.html",
   "scripts": {
-    "start": "parcel index.html",
+    "start": "parcel index.html --open",
     "build": "parcel build index.html"
   },
   "dependencies": {
@@ -22,14 +22,5 @@
   "keywords": [
     "typescript",
     "javascript"
-  ],
-  "staticFiles": {
-    "staticPath": [
-      {
-        "staticPath": "src/public",
-        "staticOutDir": "public"
-      }
-    ],
-    "watcherGlob": "**"
-  }
+  ]
 }
