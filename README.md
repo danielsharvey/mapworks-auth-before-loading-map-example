@@ -24,10 +24,10 @@ const mapRef = 'map-osm-public';
 
 ## Using the code
 
-The [src/mapworks](src/mapworks) and [src/public](src/public) subfolders may be copied and used directly in web application code.
+The [src/mapworks](src/mapworks) and [public](public) subfolders may be copied and used directly in web application code.
 
 - [src/mapworks](src/mapworks) - this contains the `MapworksMapService` class used to manage auth and map initialisation.
-- [src/public](src/public) - this handles the OAuth2/OIDC callback used as part of the sign in process
+- [public](public) - this handles the OAuth2/OIDC callback used as part of the sign in process
 
 
 ## Other Examples
