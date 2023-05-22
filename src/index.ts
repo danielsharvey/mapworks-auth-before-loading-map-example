@@ -90,6 +90,11 @@ console.info(
 
 const mapService = new MapworksMapService(studioConfig.mapworksLoginProvider);
 
+// XXX TODO FIX ME
+if(window.location.pathname === '/public/login-callback.html') {
+  mapService.handleSigninCallback();
+}
+
 const urlParams = new URLSearchParams(window.location.search);
 const showMapAuto = 'true' === urlParams.get('show-map-automatically');
 
