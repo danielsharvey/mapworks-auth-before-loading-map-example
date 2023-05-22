@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <script
+      defer="defer"
+      src="https://api.mapworks.io/studio/latest/js/studio-core.js"
+    ></script>
+  </head>
+  <body>
+    <script>
+      window.onload = () => {
+        Studio.OidcClient.signinCallback();
+      };
+    </script>
+  </body>
+</html>
