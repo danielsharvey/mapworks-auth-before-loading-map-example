@@ -1,8 +1,12 @@
 # Mapworks Auth Example - User Sign In before loading map
 
-This example illustrates utilising Mapworks Auth with a web application.
+This example illustrates utilising Mapworks Auth within a web application.
 
-The specfic use case includes accessing auth via Mapworks, and allowing sign-in prior to the use of a Mapworks map component.
+The specific use case includes accessing auth via Mapworks, and allowing sign-in prior to the use of a Mapworks map component.
+
+The web application is viewable as guest but you can login using a *Personal Mapworks account* to
+test as well. This works as configured (see below) when access via the CodeSandbox URL below and
+when running locally. 
 
 
 ## Running in CodeSandbox
@@ -12,7 +16,19 @@ This example may be run in CodeSandbox:
 - https://githubbox.com/mapworksio/mapworks-auth-before-loading-map-example
 
 
+## Mapworks Community
+
+If you have any questions, please feel free to join the discussion on this
+[Mapworks Community discussion topic](https://community.mapworks.io/t/mapworks-auth-example-user-sign-in-before-loading-map/).
+
+
 ## Application configuration
+
+As configured, this example web application makes use of the following Mapworks resources:
+
+- Organisation: https://app.mapworks.io/
+- Application: [Mapworks Example Application](https://app.mapworks.io/settings/application/an0raTjbw6A6Kno8s8Bw2/details)
+- Map: [OpenStreetMap](https://app.mapworks.io/content/#/map/AXBR6sWIAAA2ac12AAAA) (`map-osm-public`)
 
 The application configuration (in [src/index](src/index.ts)) is as follows:
 
