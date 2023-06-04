@@ -83,4 +83,5 @@ The [src/mapworks](src/mapworks) and [public](public) subfolders may be copied a
 
 Please also see the following related examples:
 
-
+1. https://github.com/mapworksio/mapworks-auth-angular-example
+2. https://github.com/mapworksio/mapworks-mouseover-zoomto-angular-example
